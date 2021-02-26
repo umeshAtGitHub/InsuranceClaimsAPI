@@ -16,7 +16,7 @@ namespace InsuranceClaimsAPI.Controllers
     // is wrong with the model
     [ApiController]
     //Add attribute rout
-    [Route("[controller]")] //This means that controller can be accessed by its name. i.e class name that come before controller
+    [Route("api/[controller]")] //This means that controller can be accessed by its name. i.e class name that come before controller
     public class claimsController : ControllerBase
     {
         // private static List<Claims> claims = new List<Claims>(){
