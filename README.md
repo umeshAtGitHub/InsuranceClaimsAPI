@@ -8,8 +8,8 @@
 ## Endpoints
 The following endpoints are available for use :
 
-- `https://localhost:5001/claims/<MemberId>/<claimDate(yyyy-mm-dd)>`
-- `https://localhost:5001/claims/<MemberId>`
+- `https://localhost:5001/api/claims/<MemberId>/<claimDate(yyyy-mm-dd)>`
+- `https://localhost:5001/api/claims/<MemberId>`
 
 
 Acceptable values are `date to be passed in yyyy-mm-dd 
@@ -19,8 +19,8 @@ Acceptable values are `date to be passed in yyyy-mm-dd
 ## Testing
 
 You can test in Postman or browser
-1. https://localhost:5001/claims/1245
-2. https://localhost:5001/claims/1245/2020-11-05
+1. https://localhost:5001/api/claims/1245
+2. https://localhost:5001/api/claims/1245/2020-11-05
 
 
 ## Dependency
