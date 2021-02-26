@@ -66,7 +66,7 @@ namespace InsuranceClaimsAPI.Controllers
                 HasHeaderRecord = true,
             };
 
-            var reader = new StreamReader(@"C:\Users\umesh\source\repos\ClaimsAPI\resource\Claim.csv");
+            var reader = new StreamReader(@"C:\Claim.csv");
 
            var csvreader = new CsvReader(reader, config);
 
